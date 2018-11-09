@@ -1,4 +1,5 @@
 games:
   pkg.installed:
-    - name: bastet
-    - name: nudoku
+    - pkgs:
+      - nudoku
+      - bastet
