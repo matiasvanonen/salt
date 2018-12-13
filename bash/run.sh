@@ -11,5 +11,5 @@ sudo ufw allow 80/tcp
 sudo ufw allow 22/tcp
 
 echo "Configuring the slave"
-echo -e "master: 192.168.1.70\nid: matias"|sudo tee /etc/salt/minion
+echo -e "master: localhost\nid: matias"|sudo tee /etc/salt/minion
 sudo systemctl restart salt-minion.service
