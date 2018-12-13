@@ -1,5 +1,4 @@
 base:
   '*':
     - apache
-    - games
-    - photoedit
+    - mariadb
